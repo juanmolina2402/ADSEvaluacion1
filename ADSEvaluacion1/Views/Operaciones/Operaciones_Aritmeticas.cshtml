@@ -5,10 +5,12 @@
 }
 
 <h1>Operaciones</h1><hr />
-<ul>@Html.ActionLink("Suma", "Operaciones_Aritmeticas", "Operaciones", new { v1 = 30, v2 = 2, opc = 1 }, null)</ul>
-<ul>@Html.ActionLink("Resta", "Operaciones_Aritmeticas", "Operaciones", new { v1 = 30, v2 = 2, opc = 2 }, null)</ul>
-<ul>@Html.ActionLink("Multiplicación", "Operaciones_Aritmeticas", "Operaciones", new { v1 = 30, v2 = 2, opc = 3 }, null)</ul>
-<ul>@Html.ActionLink("División", "Operaciones_Aritmeticas", "Operaciones", new { v1 = 30, v2 = 2, opc = 4 }, null)</ul>
+<ul>
+    <li>@Html.ActionLink("Suma", "Operaciones_Aritmeticas", "Operaciones", new { v1 = 30, v2 = 2, opc = 1 }, null)</li>
+    <li>@Html.ActionLink("Resta", "Operaciones_Aritmeticas", "Operaciones", new { v1 = 30, v2 = 2, opc = 2 }, null)</li>
+    <li>@Html.ActionLink("Multiplicación", "Operaciones_Aritmeticas", "Operaciones", new { v1 = 30, v2 = 2, opc = 3 }, null)</li>
+    <li>@Html.ActionLink("División", "Operaciones_Aritmeticas", "Operaciones", new { v1 = 30, v2 = 2, opc = 4 }, null)</li>
+</ul>
 
 <h1>Respuesta</h1><hr />
 <strong>Operación:</strong> @Model.ope <br />

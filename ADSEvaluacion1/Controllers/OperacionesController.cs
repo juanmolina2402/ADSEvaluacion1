@@ -10,7 +10,7 @@ namespace ADSEvaluacion1.Controllers
     public class OperacionesController : Controller
     {
         // GET: Operaciones
-        public ActionResult Operaciones_Aritmeticas(Int32 v1=0, Int32 v2=0, int opc= 0)
+        public ActionResult Operaciones_Aritmeticas(Int32 opc = 0, Double v1=0, Double v2=0)
         {
             var operacion = new Operacion() { };
 
